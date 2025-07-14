@@ -63,15 +63,6 @@ Then open: [http://localhost:5173](http://localhost:5173)
 - Data saved in browser (localStorage)
 - Fully responsive with Tailwind CSS
 
-## Deployment
-
-You can deploy this using:
-
-- [Vercel](https://vercel.com/)
-- [Netlify](https://netlify.com/)
-- [GitHub Pages](https://pages.github.com/)
-
----
 
 ## Author
 
