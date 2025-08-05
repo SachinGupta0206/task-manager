@@ -5,14 +5,14 @@ const TaskItem = ({ task, onToggle, onDelete }) => {
         <input
           type="checkbox"
           checked={task.completed}
-          onChange={() => onToggle(task.id)}
+          onChange={() => onToggle(task._id)}
         />
         <span className={task.completed ? "line-through text-gray-500" : ""}>
           {task.title}
         </span>
       </div>
       <button
-        onClick={() => onDelete(task.id)}
+        onClick={() => onDelete(task._id)}
         className="text-red-500 hover:text-red-700"
       >
         Delete

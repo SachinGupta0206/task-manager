@@ -10,6 +10,12 @@ This project allows you to manage your daily tasks with ease — including featu
 - Persistent storage with localStorage
 - Responsive design using Tailwind CSS
 
+A full-stack task management app built using:
+
+- **Frontend**: React, Axios, Tailwind CSS
+- **Backend**: Node.js, Express, MongoDB
+- **Auth**: JWT-based token system
+
 ## Technologies Used
 
 - React (via Vite)
@@ -34,28 +40,25 @@ task-manager/
 
 ---
 
-## Installation & Running Locally
+## Getting Started
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/your-username/task-manager.git
-
-# 2. Move into the project folder
-cd task-manager
-
-# 3. Install dependencies
+cd server
 npm install
+npm start
 
-# 4. Start the development server
+cd client
+npm install
 npm run dev
-```
 
 Then open: [http://localhost:5173](http://localhost:5173)
 
 ---
 
 ## Features
-
+- ✅ User login & JWT auth
+- ✅ Add/Delete/Filter tasks
+- ✅ Protected routes
 - Add task with title
 - Toggle task completion
 - Delete task
@@ -71,3 +74,4 @@ Then open: [http://localhost:5173](http://localhost:5173)
 - Gmail: sgupta80903gmail.com
 
 ---
+```
